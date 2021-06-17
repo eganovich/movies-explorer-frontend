@@ -1,0 +1,1 @@
+Фроненд проекта Movie-explorer
