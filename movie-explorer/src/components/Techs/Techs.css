@@ -5,19 +5,17 @@
   
   .techs__title {
     margin: 0;
+    font-size: 22px;
     padding-bottom: 22px;
     border-bottom: 1px solid #000;
   }
   
-  .techs__title::after {
-    margin: 23px 0 90px 0;
-  }
   
   .techs__main-text {
     text-align: center;
     font-size: 50px;
     line-height: 58px;
-    margin: 0;
+    margin: 90px 0 0 0;
   }
   
   .techs__text {
