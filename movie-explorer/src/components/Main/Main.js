@@ -5,10 +5,16 @@ import Techs from '../Techs/Techs';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
-function Main() {
-  return (
-    <>
+function Main({ loggedIn, menuProps }) {
+  return ( 
+   <>
+    <Header
+        place="main"
+        loggedIn={loggedIn}
+        {...menuProps}
+      />
     <Promo />
     <NavTab />
     <AboutProject />
