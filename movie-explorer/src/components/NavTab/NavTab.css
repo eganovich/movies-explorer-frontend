@@ -17,3 +17,7 @@
     font-weight: 500;
     color: #000;
 }
+
+.nav-tab__link:hover {
+    opacity: .5;
+  }
