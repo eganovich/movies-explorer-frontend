@@ -5,7 +5,6 @@ import './Input.css';
 function Input({
     place,
     inputType = 'text',
-    inputPattern = null,
     inputName,
     inputLabel,
     inputValue,

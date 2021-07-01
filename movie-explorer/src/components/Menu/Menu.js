@@ -5,7 +5,7 @@ import './Menu.css';
 
 function Menu({ isVisible, onClose }) {
   return(
-    <div className={`header__menu-wrapper menu-wrapper ${isVisible ? 'menu-wrapper_visible' : ''}`}>
+    <div className={`header__menu-wrapper menu-wrapper ${isVisible ? 'menu-wrapper_visible' : '' }`}>
       <div className="menu-wrapper__fade" />
       <aside className="menu">
         <button className="menu__close" type="button" onClick={onClose} />
@@ -45,7 +45,8 @@ function Menu({ isVisible, onClose }) {
           className="menu__profile"
           to="/profile"
           onClick={onClose}
-        >Аккаунт</Link>
+        >Аккаунт
+        <div className="menu__profile-icon"></div></Link>
       </aside>
     </div>
   );

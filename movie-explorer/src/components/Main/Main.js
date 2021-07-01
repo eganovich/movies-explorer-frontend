@@ -13,7 +13,6 @@ function Main({ loggedIn, menuProps }) {
     <Header
         place="main"
         loggedIn={loggedIn}
-        {...menuProps}
       />
     <Promo />
     <NavTab />

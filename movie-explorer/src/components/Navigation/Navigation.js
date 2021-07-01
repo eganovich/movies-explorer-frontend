@@ -62,6 +62,7 @@ function Navigation({
               to="/profile"
             >
               Аккаунт
+              <div className="navigation__profile-icon"></div>
             </Link>
           </li>}
         </ul>
